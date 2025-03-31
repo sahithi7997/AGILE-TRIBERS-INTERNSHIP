@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+
+<h2>Register Here</h2>
+<p>Please Fill And Submit Form:</p>
+
+<form action="/submit_registration" method="post"> 
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+  
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+  
+  <label for="age">Age:</label><br>
+  <input type="number" id="age" name="age" placeholder="Enter your age"><br><br>
+  
+  <label for="dob">Date of birth:</label><br>
+  <input type="date" id="dob" name="dob" placeholder="dd-mm-yyyy"><br><br>
+  
+  <label for="phone">Phone Number:</label><br>
+  <select id="phone_code" name="phone_code">
+    <option value="+91">+91 (India)</option> 
+    <option value="+1">+1 (USA)</option> 
+  </select>
+  <input type="tel" id="phone" name="phone" placeholder="Enter your Phone number"><br><br>
+  
+  <label>Select your gender:</label><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br><br>
+  
+  <label for="skill">Choose your skill level:</label><br>
+  <select id="skill" name="skill">
+    <option value="beginner">Beginner</option>
+    <option value="intermediate">Intermediate</option>
+    <option value="advanced">Advanced</option>
+  </select><br><br>
+  
+  <label for="color">Select your favorite color:</label><br>
+  <input type="color" id="color" name="color"><br><br>
+  
+  <label for="father_name">Father Name:</label><br>
+  <input type="text" id="father_name" name="father_name" placeholder="Enter your Father Name"><br><br>
+
+  <label>Choose your language:</label><br>
+  <input type="checkbox" id="tamil" name="language[]" value="tamil">
+  <label for="tamil">Tamil</label>
+  <input type="checkbox" id="english" name="language[]" value="english">
+  <label for="english">English</label>
+  <input type="checkbox" id="malayalam" name="language[]" value="malayalam">
+  <label for="malayalam">Malayalam</label><br><br>
+  
+  <label for="hobbies">Hobbies:</label><br>
+  <textarea id="hobbies" name="hobbies" placeholder="Enter your hobbies"></textarea><br><br>
+  
+  <label for="address">Address:</label><br>
+  <textarea id="address" name="address"></textarea><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

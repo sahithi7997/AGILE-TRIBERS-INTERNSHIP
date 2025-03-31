@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Course and Interests Page</title>
+<style>
+  .title-bar {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  .container {
+    display: flex;
+  }
+  .content {
+    flex: 2;
+  }
+  .image-container {
+    flex: 1;
+    text-align: right;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="content">
+
+    <div class="title-bar">
+      <strong>Courses</strong>
+    </div>
+
+    <p>Here are some courses I've taken:</p>
+
+    <table>
+      <tr>
+        <th>Course Number</th>
+        <th>Course Title</th>
+        <th>Semester Taken</th>
+      </tr>
+      <tr>
+        <td colspan="3"><strong>For Credit</strong></td>
+      </tr>
+      <tr>
+        <td>6.813</td>
+        <td>User Interface Design</td>
+        <td>Spring 2014</td>
+      </tr>
+      <tr>
+        <td>5.034</td>
+        <td>Artificial Intelligence</td>
+        <td>Fall 2013</td>
+      </tr>
+      <tr>
+        <td>6.000</td>
+        <td>Introduction to Algorithms</td>
+        <td>Fall 2013</td>
+      </tr>
+      <tr>
+        <td colspan="3"><strong>Listener</strong></td>
+      </tr>
+      <tr>
+        <td>6.867</td>
+        <td>Machine Learning</td>
+        <td>Fall 2013</td>
+      </tr>
+      <tr>
+        <td>6.830</td>
+        <td>Database Systems</td>
+        <td>Fall 2012</td>
+      </tr>
+    </table>
+
+    <div class="title-bar">
+      <strong>Interests</strong>
+    </div>
+
+    <p>I am interested in <strong>HCI</strong>, <em>memes</em>, and <em>youtube videos</em>.</p>
+
+  </div>
+
+  <div class="image-container">
+    <img src="your_image_url_here.jpg" alt="Fun Image" width="300">
+  </div>
+</div>
+
+</body>
+</html>

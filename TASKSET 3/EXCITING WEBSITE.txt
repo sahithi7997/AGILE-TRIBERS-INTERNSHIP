@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Exciting Website!</title>
+<style>
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  nav {
+    background-color: #444;
+    color: white;
+    padding: 10px 0;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  nav li {
+    display: inline;
+    margin: 0 15px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  .blog-post img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <h1>My exciting website!</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Our History</a></li>
+      <li><a href="#">Contacts</a></li>
+    </ul>
+  </nav>
+
+  <section class="blog-post">
+    <h2>An Exciting Blog Post</h2>
+    <img src="your-image.jpg" alt="Exciting Blog Post Image">  
+    <p>
+      Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsil tomatillo melon azuki bean garlic.
+    </p>
+    <p>
+      Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
+    </p>
+    <p>
+      Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kohlrabi maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.
+    </p>
+  </section>
+
+</body>
+</html>

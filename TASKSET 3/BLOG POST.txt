@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Blog</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-left: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .featured-image img {
+            width: 100%;
+            display: block;
+        }
+
+        .main-content {
+            display: flex;
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        .blog-posts {
+            flex: 2;
+            padding-right: 20px;
+        }
+
+        .blog-post {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+
+        .sidebar {
+            flex: 1;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Awesome Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="featured-image">
+        <img src="https://via.placeholder.com/1200x400" alt="Featured Image">
+    </section>
+
+    <main class="main-content">
+        <section class="blog-posts">
+            <article class="blog-post">
+                <h2>Title of the first blog</h2>
+                <p>By Aziz Ali</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue commodo neque, nec laoreet leo consequat id. Vivamus volutpat dolor quis odio fermentum aliquet non non tellus. Morbi suscipit sapien eget neque eleifend, sit amet placerat massa scelerisque Lorem ipsum dolor.</p>
+            </article>
+
+            <article class="blog-post">
+                <h2>Title of the second blog</h2>
+                <p>By Aziz Ali</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue commodo neque, nec laoreet leo consequat id. Vivamus volutpat dolor quis odio fermentum aliquet non non tellus. Morbi suscipit sapien eget neque eleifend, sit amet placerat massa scelerisque Lorem ipsum dolor.</p>
+            </article>
+            
+        <aside class="sidebar">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="https://azizal.com">AzizAl.com</a></li>
+                <li><a href="https://ilovecoding.org">iLoveCoding.org</a></li>
+            </ul>
+        </aside>
+    </main>
+</body>
+</html>

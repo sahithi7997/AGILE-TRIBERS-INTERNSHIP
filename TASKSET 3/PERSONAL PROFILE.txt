@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Victoria Kirst - Personal Profile</title>
+<style>
+  body {
+    font-family: sans-serif;
+    background-color: #777; /* Dark gray background */
+    color: white;
+    padding: 20px;
+  }
+  
+  h1 {
+    background-color: #aaa; /* Light gray background for title */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  section {
+    background-color: #555; /* Slightly lighter dark gray for sections */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .moods {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .moods img {
+    max-width: 45%; /* Adjust image sizes as needed */
+    height: auto;
+  }
+  
+  .moods p {
+    text-align: center;
+  }
+  
+  /* Add styles for (IMDB) if needed */
+  .imdb {
+    color: #ccc; /* Example style for IMDB links */
+  }
+</style>
+</head>
+<body>
+
+  <h1>About Victoria Kirst</h1>
+  <section>
+    <p>My name is Victoria and I am jolly, clumsy, and four-eyed.</p>
+  </section>
+  
+  <section>
+    <h2>My Classes This Quarter</h2>
+    <ul>
+      <li>CSE 451 - Operating Systems</li>
+      <li>CSE 471 - Computer Design and Organization</li>
+      <li>PHYS 121 - Physics: Mechanics</li>
+      <li>CSE 498 - Research w/ Prof. Luis Ceze</li>
+    </ul>
+  </section>
+  
+  <section>
+    <h2>My Favorite Movies</h2>
+    <p>(I actually don't watch too many movies, so... here goes!)</p>
+    <ol>
+      <li>The last 30 minutes of Forrest Gump <span class="imdb">(IMDB)</span></li>
+      <li>Star Trek Episode V with Zazu <span class="imdb">(IMDB)</span></li>
+      <li>Fight Club (not really, but I've seen like 3 movies total so this is my 3rd fave by technicality) <span class="imdb">(IMDB)</span></li>
+    </ol>
+  </section>
+  
+  <section>
+    <h2>My Moods</h2>
+    <div class="moods">
+      <div>
+        <p>Happy:</p>
+        <img src="happy_mood_image.jpg" alt="Happy Mood"> 
+      </div>
+      <div>
+        <p>Sad:</p>
+        <img src="sad_mood_image.jpg" alt="Sad Mood">
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <h2>Fun Facts About My Neighbors</h2>
+    <ul>
+      <li>Sue Smith: Effervescent is a word that describes her.</li>
+      <li>Bill Thompson: Loves playing Yu-Gi-Oh.</li>
+    </ul>
+  </section>
+
+</body>
+</html>
